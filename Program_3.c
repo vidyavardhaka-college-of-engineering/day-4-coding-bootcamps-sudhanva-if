@@ -13,5 +13,6 @@ int main()
    //Read the Value of row and coloumn of the matrix (i.e size of matrix) using scanf statement
    //Read the elements of matrix a using nested for loop and scanf statment
    //Print the elements of matrix a using nested for loop and printf statment as per the above specified format
+   
   return 0;
 }

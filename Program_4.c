@@ -12,5 +12,16 @@ int main()
   //Read the array elements using for loop and scanf statment
   // DO the addition of array elements and store the final result in variable sum
   //Print the sum of array elements which is stored in variable sum using printf statement
+  int arr[5],sum=0;
+  int i;
+  for(i=0;i<5;i++)
+  {
+    scanf("%d",&arr[i]);
+    sum=sum+arr[i];
+  }
+  
+  
+    printf("%d",sum);
+  
   return 0;
 }
